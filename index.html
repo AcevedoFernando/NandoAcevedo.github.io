@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernand Acevedo</title>
+    <title>Fernando Acevedo</title>
+    
+    <style >
+        html, body {
+           background: #A1FFCE;  /* fallback for old browsers */
+           background: -webkit-linear-gradient(to left, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+           background: linear-gradient(to left, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .title__content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .title {
+            background-color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            width: 60%;
+        }
+        .title > .name {
+            font-size: 2em;
+        }
+
+        .title > .job {
+            font-family: 'Courier New', Courier, monospace;
+            color: gray;
+        }
+
+        .title__portafolio {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title__portafolio > .content {
+            background-color: #fff;
+            width: 40%;
+            border-radius: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-size: 1.6em;
+            text-decoration: underline overline gray;
+            padding: 20px;
+        }
+        
+    </style>
+    
 </head>
 <body>
-    Este es mi portafolio
+
+    <header>
+        <div class="title__content">
+            <div class="title">
+                <span class="name">Ing. Fernando Acevedo</span> <br>
+                <span class="job">FullStack Developer</span>
+            </div>
+        </div>
+        
+        
+        
+        <div class="title__portafolio">
+            <div class="content">Bienvenidos a mi portafolio</div>
+        </div>
+    </header>
+    
+
+
+
 </body>
 </html>
